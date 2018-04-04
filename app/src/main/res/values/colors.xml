@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFCE00</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="button_border_color">#FFCE00</color>
+
+    <color name="edit_text_hint">#666666</color>
+    <color name="edit_text_error">#E4372D</color>
+
+    <color name="list_selection">#FFCE00</color>
+    <color name="search_hint_color">#999999</color>
+    <color name="separator">#DDDDDD</color>
+    <color name="white_pressed">@color/list_selection</color>
+
+    <color name="pin_normal">#6B767E</color>
+    <color name="available">#BF2932</color>
+    <color name="grey_1">#838383</color>
+    <color name="grey_2">#A5A5A5</color>
+
+</resources>

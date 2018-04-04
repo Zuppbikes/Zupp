@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wow Library</string>
+    <string name="no_internet">No internet connectivity. Please try again.</string>
+    <string name="unauthorized">Your session has expired. Please login again.</string>
+</resources>

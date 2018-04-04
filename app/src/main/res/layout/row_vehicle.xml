@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin_8">
+
+    <ImageView
+        android:id="@+id/ivVehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_yellow_border"
+        android:src="@drawable/ic_bike_side" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_12"
+        android:background="@drawable/line_bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_8">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLicensePlateNo"
+                style="@style/text_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="----" />
+
+            <TextView
+                android:id="@+id/tvVehicleBrand"
+                style="@style/text_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/margin_8"
+                android:drawableStart="@drawable/dot_2"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="---" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bZuppIt"
+            style="@style/button_yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_32"
+            android:background="@drawable/yellow_round_button_selector"
+            android:enabled="false"
+            android:text="---"
+            android:minWidth="@dimen/margin_80"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow_button_text_selector"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

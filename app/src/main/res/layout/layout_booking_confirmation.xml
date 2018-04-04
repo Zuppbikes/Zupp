@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialog_background"
+    android:padding="@dimen/margin_16"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_message" />
+
+    <TextView
+        style="@style/text_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_32"
+        android:text="@string/please_remember_to_ride_safe"
+        android:textColor="@color/grey_1" />
+
+    <Button
+        android:id="@+id/bDone"
+        style="@style/button_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_32"
+        android:layout_marginTop="@dimen/margin_48"
+        android:text="@string/done"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_8"
+    android:background="@drawable/otp_bg_border"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvStatus"
+        style="@style/text_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:background="@drawable/otp_bg_border"
+        android:fontFamily="@font/khand_semibold"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/grey_1" />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/text_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/khand_semibold"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvVehicle"
+        style="@style/text_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/text_18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/start_date_adapter"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            style="@style/text_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvEndDateLabel"
+            style="@style/text_18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/end_date_adapter"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvEndDate"
+            style="@style/text_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>
